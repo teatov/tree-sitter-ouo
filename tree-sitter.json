@@ -1,0 +1,40 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "ouo",
+      "camelcase": "Ouo",
+      "title": "Ouo",
+      "scope": "source.ouo",
+      "file-types": [
+        "ouo"
+      ],
+      "injection-regex": "^ouo$",
+      "class-name": "TreeSitterOuo"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "Tree-sitter parser for ouo",
+    "authors": [
+      {
+        "name": "Anatoly Titov"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/teatov/tree-sitter-ouo",
+      "funding": ""
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "java": false,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true,
+    "zig": false
+  }
+}
